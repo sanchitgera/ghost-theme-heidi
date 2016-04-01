@@ -11,8 +11,8 @@
 
     <span class="post-date">{{date format='YYYY-MM-DD'}}</span>
 
-    {{content}}
-  </div>
+    <p>{{excerpt words="40"}} ...</p>
+    <p><a class="read-more" href="{{url}}">Read More</a></p>  </div>
   {{/foreach}}
 
   {{pagination}}
